@@ -1,0 +1,144 @@
+@media (min-width: 1200px){
+  .container {
+      max-width: 1140px;
+  }}
+  .container {
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+  }
+  @media screen and (min-width: 1200px){
+  .container {
+      max-width: 1200px!important;
+  }}
+  
+  .button {
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 9px 15px;
+    /* border-radius: 30px; */
+    text-align: center;
+    display: inline-block;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .button.button--primary {
+    background: var(--main-color);
+    color: #fff;
+    font-weight: 650;
+  }
+  
+  .button.button--secondary{
+    background: var(--color-light);
+    color: #fff;
+    font-weight: 650;
+  }
+  
+  .footer.footer--1{
+    background: var(--color-light);
+  }
+  
+  .home,
+  .services,
+  .products,
+  .contact-us,
+  .sign-up,
+  .marketing,
+  .consulting {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+  }
+  
+  .home {
+    /* background-image: url('./images/img-1.jpg'); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  
+  .services {
+    /* background-image: url('./images/img-2.jpg'); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  
+  .products {
+    /* background-image: url('./images/img-3.jpg'); */
+    background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  
+  .contact-us {
+    /* background-image: url('./images/img-4.jpg'); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  
+  .sign-up {
+    /* background-image: url('./images/img-7.jpg'); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  
+  .marketing {
+    /* background-image: url('./images/img-6.jpg'); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  
+  .consulting {
+    /* background-image: url('./images/img-5.jpg'); */
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+
+  .content-area{
+ margin: 4rem 0;
+  }
+  .content-area h2{
+    margin-bottom: 1.5rem;
+    font-size: 2.1875rem;
+    color: var(--main-color);
+    margin-top: 4rem;
+  }
+
+  .content-area p{
+    font-size: 1.0625rem;
+  }
+
+  .content-area a{
+    color: var(--main-color) !important;
+  }
+
+  .content-area a:hover{
+    color: var(--color-primary-variant) !important;
+  }

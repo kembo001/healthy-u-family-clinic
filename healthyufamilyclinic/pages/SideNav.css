@@ -1,0 +1,61 @@
+.side-nav.buttons {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.side-nav.buttons .button {
+    /* background-image: url(/portals/0/logo-r.svg); */
+    background-color: transparent;
+    background-repeat: no-repeat !important;
+    background-size: 35px 36px;
+    background-position: 15px center;
+    color: var(--main-color);
+    border: 3px solid var(--main-color);
+    justify-content: start;
+    /* padding-left: 65px; */
+    font-weight: 600;
+    font-size: 1.4375rem;
+    text-transform: none;
+}
+.side-nav.buttons .button {
+    width: 100%;
+    margin-top: 5px;
+}
+.button {
+    position: relative;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #4d4d4d;
+    text-transform: uppercase;
+    /* font-size: 13px; */
+    font-weight: 700;
+    border: none;
+}
+
+.side{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+ 
+.side-nav.buttons .button:hover{
+    background-color: var(--main-color);
+    color: #fff;
+}
+

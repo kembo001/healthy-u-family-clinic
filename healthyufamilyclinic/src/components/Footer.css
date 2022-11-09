@@ -1,0 +1,38 @@
+/* ---------------------------------------------------------
+	
+	* Filename:			  footer-3.scss
+	* Description: 		Define the layout for footer-3
+	
+------------------------------------------------------------*/
+
+
+/** BEGIN COMPONENT OVERRIDES HERE **/
+
+.footer a{
+    color: var(--color-white);
+}
+
+.footer li{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.footer .fa-angle-double-right{
+    font-size: 10px;
+}
+
+.footer .container{
+    padding: 50px 0;
+}
+@media screen and (max-width: 992px){
+    .footer.footer--1{text-align: center;}
+}
+
+.title{
+    font-size: 18px;
+    /* margin-bottom: 2rem; */
+}
+
+.footer .fas{
+    margin-right: 10px;
+}

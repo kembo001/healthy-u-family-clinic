@@ -1,0 +1,161 @@
+/* ---------------------------------------------------------
+	
+	* Filename:			  feature-1.scss
+	* Description: 		Define the layout for feature-1
+  * Version:				1.0.1
+  * Last Modified:  3.28.2019
+	
+------------------------------------------------------------*/
+.feature.feature--1 .feature__title { text-align: center; }
+
+.feature.feature--1 .feature__subtitle { text-align: center; }
+
+.feature.feature--1 .feature__text { text-align: center; }
+
+.feature.feature--1 .feature__buttons { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: space-evenly; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
+
+@media screen and (max-width: 575px) { .feature.feature--1 .feature__buttons { -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; } }
+
+/** BEGIN COMPONENT OVERRIDES HERE **/
+
+/* ---------------------------------------------------------
+	
+	* Filename:			  feature-7.scss
+	* Description: 		Define the layout for feature-7
+  * Version:				1.0.0
+  * Last Modified:  4.8.2019
+	
+------------------------------------------------------------*/
+.feature.feature--7 .feature__image img { width: 110%; height: 100%; -o-object-fit: cover; object-fit: cover; }
+
+@media screen and (max-width: 767px) { .feature.feature--7 .feature__image img { width: 100%; } }
+
+.feature.feature--7 .feature__content { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; }
+
+.feature.feature--7 .feature__content .content__container { padding: 20px; background: white; }
+
+.feature.feature--7 .feature__content .content__buttons { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; }
+
+/** BEGIN COMPONENT OVERRIDES HERE **/
+
+.content__title{
+    color: var(--main-color);
+}
+
+.content__title span{
+    color: var(--color-primary-variant) !important;
+}
+
+
+/* ---------------------------------------------------------
+	
+	* Filename:			  grid-1x3-1.scss
+	* Description: 		Define the layout for grid-1x3--1
+  * Version:				1.0.0
+  * Last Modified:  5.13.2019
+	
+------------------------------------------------------------*/
+.grid.grid-1x3--1 .grid__item { position: relative; height: 500px; }
+
+.grid.grid-1x3--1 .grid__item:hover::after { background: rgba(0, 0, 0, 0.5); }
+
+.grid.grid-1x3--1 .grid__item:hover .item__content .content__hover { max-height: 200px; opacity: 1; }
+
+.grid.grid-1x3--1 .grid__item::after { position: absolute; z-index: 1; content: ''; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.1); -webkit-transition: all 0.3s ease; transition: all 0.3s ease; }
+
+.grid.grid-1x3--1 .grid__item .item__image { position: relative; z-index: 0; width: 100%; height: 100%; -o-object-fit: cover; object-fit: cover; }
+
+.grid.grid-1x3--1 .grid__item .item__content { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; position: absolute; z-index: 2; top: 50%; left: 0; right: 0; width: 80%; margin: 0 auto; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); }
+
+.grid.grid-1x3--1 .grid__item .item__content .content__title { color: white; -webkit-transition: all 0.3s ease; transition: all 0.3s ease; }
+
+.grid.grid-1x3--1 .grid__item .item__content .content__hover { max-height: 0; opacity: 0; -webkit-transition: all 0.6s ease; transition: all 0.6s ease; }
+
+.grid.grid-1x3--1 .grid__item .item__content .content__hover .hover__text { color: white; text-align: center; }
+
+.grid.grid-1x3--1 .grid__item .item__content .button { -webkit-transition: all 0.3s ease; transition: all 0.3s ease; }
+
+/** BEGIN COMPONENT OVERRIDES HERE **/
+
+
+.content__subTitle{
+    color: var(--color-light);
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 1.25rem;
+}
+
+.content__feature3{
+    text-align: center;
+}
+
+/* ---------------------------------------------------------
+	
+	* Filename:			  feature-3.scss
+	
+------------------------------------------------------------*/
+.feature.feature--3 .feature__image { width: 100%; height: 100%; -o-object-fit: cover; object-fit: cover; }
+
+/* ---------------------------------------------------------
+	
+	* Filename:			  feature-6.scss
+	* Description: 		Define the layout for feature-6
+  * Version:				1.0.0
+  * Last Modified:  5.21.2019
+	
+------------------------------------------------------------*/
+.feature.feature--6 { position: relative; height: 350px; }
+
+@media screen and (max-width: 767px) { .feature.feature--6 { height: auto; } }
+
+@media screen and (max-width: 575px) { .feature.feature--6 { padding: 0 10px; } }
+
+.feature.feature--6 div[class^="container"], .feature.feature--6 div[class^="row"] { height: 100%; }
+
+@media screen and (max-width: 767px) { .feature.feature--6 .container > .row { -webkit-box-orient: vertical; -webkit-box-direction: reverse; -webkit-flex-direction: column-reverse; -ms-flex-direction: column-reverse; flex-direction: column-reverse; } }
+
+.feature.feature--6 div[class^="col"].absolute { position: absolute; height: 100%; }
+
+.feature.feature--6 div[class^="col"].absolute.absolute--right { right: 0; padding-right: 0; }
+
+@media screen and (max-width: 767px) { .feature.feature--6 div[class^="col"].absolute { position: relative; right: initial; padding: initial; } }
+
+.feature.feature--6 .feature__image { width: 100%; height: 100%; -o-object-fit: cover; object-fit: cover; }
+
+.feature.feature--6 .feature__content { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; height: 100%; }
+
+/** BEGIN COMPONENT OVERRIDES HERE **/
+
+.feature.feature--1{
+    border: solid;
+    border-color: var(--main-color);
+    margin: 2rem 0;
+}
+
+@media screen and (max-width: 576px){
+    .feature.feature--7 .feature__content .content__buttons{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .button.button--secondary{
+        margin-bottom: 2rem;
+    }
+}
+
+
+.grid{
+  margin-bottom: 4rem;
+}
+
+@media screen and (max-width: 767px){
+.grid.grid-1x3--1 .grid__item .item__content .content__hover {
+    opacity: 1 !important;
+    margin-bottom: 10.6rem !important;
+    transition: none;}
+
+    .grid.grid-1x3--1 .grid__item::after {
+      background: rgba(0, 0, 0, 0.5);
+  }
+  
+}

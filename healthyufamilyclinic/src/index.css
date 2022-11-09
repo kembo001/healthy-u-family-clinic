@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #385399;
+  --color-primary-variant: rgba(77, 181, 255, 0.971);
+  --color-white: #f1f1e6;
+  --color-light: grey;
+  --transition: all 400ms ease;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+html,body{
+  overflow-x: hidden;
+}
